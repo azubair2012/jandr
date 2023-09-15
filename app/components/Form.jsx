@@ -42,7 +42,7 @@ const Form = () => {
             placeholder="Please type in your message here."
           ></textarea>
         </form>
-        <button className="w-fit bg-black text-white font-bold text-3xl p-2 rounded-lg my-4">
+        <button className="w-fit bg-black text-white font-bold text-xl p-2 rounded-lg my-6 hover:scale-110">
           GET QUOTE
         </button>
       </div>
