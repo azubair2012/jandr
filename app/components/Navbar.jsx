@@ -9,7 +9,7 @@ const Navbar = () => {
       <a href="tel:017XXXXXXX">
         <div className="text-white flex gap-2 text-2xl">
           <p>Call Us:</p>
-          <p>07568700173</p>
+          <p className=" font-bold">07568700173</p>
         </div>
       </a>
       <div className="my-4">

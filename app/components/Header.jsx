@@ -9,7 +9,7 @@ const Header = () => {
         <Image alt="Background Image" src={Car} />
       </div>
       <div className="w-full flex items-center justify-center gap-[10vw] my-[95px]">
-        <div className="text-white">
+        <div className="text-white sm:invisible">
           <p className="scroller font-bold text-[48px]">
             BE
             <span className="font-bold text-[48px] text-primary">
