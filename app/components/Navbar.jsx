@@ -16,7 +16,7 @@ const Navbar = () => {
         <span className="font-extrabold text-5xl">J&R </span>{" "}
         <span className="font-bold text-xl"> INSURANCE</span>
       </div>
-      <div className="text-white">
+      <div className="text-white hover:scale-110">
         <a
           aria-label="Chat on WhatsApp"
           href="https://wa.me/4407568700173"
