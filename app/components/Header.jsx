@@ -10,8 +10,14 @@ const Header = () => {
       </div>
       <div className="w-full flex items-center justify-center gap-[10vw] my-[95px]">
         <div className="text-white">
-          <p className="font-bold text-[48px]">
-            BE INSURED <br /> BE SECURE with
+          <p className="scroller font-bold text-[48px]">
+            BE
+            <span className="font-bold text-[48px] text-primary">
+              SECURE
+              <br />
+              INSURED <br />
+              SMART <br />↘
+            </span>
           </p>
           <p className="text-primary font-extrabold text-[72px]">
             J & R INSURANCE
