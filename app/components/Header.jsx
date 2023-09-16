@@ -1,33 +1,29 @@
 import Image from "next/image";
 import Car from "/public/img/car.jpg";
 import Form from "./Form";
+import HeroText from "./HeroText";
 
 const Header = () => {
   return (
     <>
-      <div className="-z-10 fixed ">
+      <div className="-z-10 fixed hidden lg:block">
         <Image alt="Background Image" src={Car} />
       </div>
-      <div className="w-full flex items-center justify-center gap-[10vw] my-[95px]">
-        <div className="text-white">
-          <p className="scroller font-bold text-[48px]">
+      <div className="w-full lg:flex lg:flex-row flex-col items-center justify-center gap-[10vw] mt-4 lg:my-[90px]">
+        <div className="mx-[20vw] block lg:hidden text-[32px] mb-4 ">
+          <p className="scroller font-bold">
             BE
-            <span className="font-bold text-[48px] text-primary">
+            <span className="font-bold text-primary">
               SECURE
               <br />
               INSURED <br />
-              SMART <br />↘
+              WITH J & R <br />
+              ...↓
             </span>
           </p>
-          <p className="text-primary font-extrabold text-[72px]">
-            J & R INSURANCE
-          </p>
-          <p className="font-bold text-[30px]">Your Trusted Partner</p>
         </div>
-        {/* form start */}
+        <HeroText />
         <Form />
-
-        {/* form end */}
       </div>
     </>
   );

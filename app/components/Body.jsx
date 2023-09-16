@@ -1,11 +1,7 @@
-import Scroll from "./Scrool";
+import Scroll from "./Scroll";
 
 const Body = () => {
-  return (
-    <div className="flex flex-col">
-      <Scroll />
-    </div>
-  );
+  return <Scroll />;
 };
 
 export default Body;
