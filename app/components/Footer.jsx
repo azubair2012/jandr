@@ -7,17 +7,17 @@ const Footer = () => {
       <div className="">
         <a
           aria-label="Chat on WhatsApp"
-          href="https://wa.me/4407568700173"
+          href="https://wa.me/4407727183774"
           target="_blank"
         >
           <Image alt="Chat on WhatsApp" src={WhatsApp} />
         </a>
       </div>
       <div>
-        <a href="tel:017XXXXXXX">
+        <a href="tel:0772718377">
           <div className="font-bold flex flex-col  items-center">
             <p>Call On:</p>
-            <p className="">07568700173</p>
+            <p className="">07727183774</p>
           </div>
         </a>
       </div>
