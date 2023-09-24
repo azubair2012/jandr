@@ -14,7 +14,7 @@ const Footer = () => {
         </a>
       </div>
       <div>
-        <a href="tel:0772718377">
+        <a href="tel:07727183774">
           <div className="font-bold flex flex-col  items-center">
             <p>Call On:</p>
             <p className="">07727183774</p>
