@@ -3,7 +3,7 @@ import WhatsApp from "/public/img/WhatsAppButtonGreenMedium.svg";
 
 const Navbar = () => {
   return (
-    <div className="text-white bg-dark w-full flex lg:justify-around items-center px-8">
+    <div className="text-white bg-dark w-screen flex lg:justify-around items-center px-8">
       <a href="tel:0772718377">
         <div className="text-white font-thin lg:flex gap-2 lg:text-2xl text-md hidden">
           <p>Call Us:</p>

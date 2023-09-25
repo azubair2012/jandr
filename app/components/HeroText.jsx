@@ -7,7 +7,8 @@ const HeroText = () => {
           SECURE
           <br />
           INSURED <br />
-          SMART <br />↘
+          SMART <br />
+          WITH <span className="text-white">↓</span>
         </span>
       </p>
       <p className="text-primary font-extrabold text-[72px]">J & R INSURANCE</p>
