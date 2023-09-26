@@ -7,18 +7,23 @@ const Footer = () => {
   return (
     <div>
       {/* Large screen footer */}
-      <div className="text-white lg:flex justify-evenly bg-black w-screen hidden">
+      <div className="text-white lg:flex justify-evenly bg-black w-screen hidden pb-6 ">
         <p>© J&R Insurance {currentYear}. All rights reserved.</p>
         <p>
           Built by{" "}
           <Link
             href="https://studiozubair.com/"
             className="underline underline-offset-1"
+            target="_blank"
           >
             Studio Zubair
           </Link>
         </p>
-        <Link href="/" className="underline">
+        <Link
+          href="https://azubair2012.github.io/privacy-policy/j&r_pp.html"
+          className="underline"
+          target="_blank"
+        >
           Privacy Policy
         </Link>
       </div>
