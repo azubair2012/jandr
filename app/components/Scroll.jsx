@@ -15,7 +15,7 @@ import l12 from "/public/img/l12.jpg";
 const Scroll = () => {
   return (
     <div className="overflow-hidden w-screen bg-black h-fit hidden lg:block">
-      <div className="w-screen h-fit flex justify-around py-8 gap-4 animate-logo">
+      <div className="w-screen h-fit flex justify-around py-6 gap-4 animate-logo">
         <Image alt="Logo" src={l1} width={144} height={144} />
         <Image alt="Logo" src={l2} width={144} height={144} />
         <Image alt="Logo" src={l3} width={144} height={144} />

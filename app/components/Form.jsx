@@ -60,7 +60,7 @@ const Form = () => {
           Contact Number *
         </label>
         <input
-          type="text"
+          type="number"
           id="phone"
           name="user_phone"
           className="w-full px-3 py-2 mb-2 border rounded-md focus:outline-none focus:ring focus:border-black"
@@ -68,6 +68,17 @@ const Form = () => {
           required
         />
         {/* car detail */}
+        <label className="font-bold" htmlFor="phone">
+          Car Registration Number *
+        </label>
+        <input
+          type="text"
+          id="phone"
+          name="car_reg"
+          className="w-full px-3 py-2 mb-2 text-center border rounded-md focus:outline-none focus:ring focus:border-black"
+          placeholder="Car Registration Number"
+          required
+        />
         <div className="flex gap-2">
           <div>
             <label className="font-bold" htmlFor="phone">
@@ -103,7 +114,7 @@ const Form = () => {
         <textarea
           name="message"
           id="text"
-          className="resize-none h-[100px] px-2 py-2 rounded-md"
+          className="resize-none h-[80px] px-2 py-2 rounded-md"
           placeholder="Please type in your message here."
           required
         ></textarea>
