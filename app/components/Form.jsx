@@ -53,7 +53,7 @@ const Form = () => {
           id="email"
           name="user_email"
           className="w-full px-3 py-2 mb-2 border rounded-md focus:outline-none focus:ring focus:border-black"
-          placeholder="Email"
+          placeholder="Email Addess"
           required
         />
         <label className="font-bold" htmlFor="phone">
@@ -78,7 +78,7 @@ const Form = () => {
               id="phone"
               name="car_make"
               className="w-full px-3 py-2 mb-2 border rounded-md focus:outline-none focus:ring focus:border-black"
-              placeholder="Car make"
+              placeholder="Car Make"
               required
             />
           </div>
@@ -91,7 +91,7 @@ const Form = () => {
               id="phone"
               name="car_model"
               className="w-full px-3 py-2 mb-2 border rounded-md focus:outline-none focus:ring focus:border-black"
-              placeholder="Car model"
+              placeholder="Car Model"
               required
             />
           </div>
@@ -110,7 +110,7 @@ const Form = () => {
         <button
           type="submit"
           value="Send"
-          className="w-fit bg-black text-white font-bold text-xl p-2 rounded-lg my-2 mx-auto hover:scale-110"
+          className="w-fit bg-black text-white font-bold text-xl p-2 rounded-lg mt-4 mx-auto hover:scale-110"
         >
           GET QUOTE
         </button>
